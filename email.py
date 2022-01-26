@@ -6,9 +6,9 @@ email = EmailMessage()
 #set the Sender Name
 email['from'] = ' '   #sender name
 #set the receiver address
-email['to'] = ''    #receiver email
+email['to'] = ' '    #receiver email
 #set email subject
-email['subject'] = ''  #email subject
+email['subject'] = ' '  #email subject
 #set email content
 email.set_content('')   #main_content
 with smtplib.SMTP(host = 'smtp.gmail.com', port = 587) as smtp:
